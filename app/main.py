@@ -22,9 +22,9 @@ def health():
 @app.post("/chat")
 def chat(req: ChatRequest):
     result = run_chain(req.query, req.role)
-    log_query(req.query, req.role, result["answer"])
+
     return {
-        "answer":     result["answer"],
-        "sources":    result["sources"],
+        "answer": result["answer"],
+        "sources": result["sources"],
         "confidence": result["confidence"],
     }
