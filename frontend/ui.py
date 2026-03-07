@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "medirag-medical.up.railway.app"
+API_URL = "https://medirag-medical.up.railway.app"
 
 st.set_page_config(page_title="MediRAG", page_icon="🏥", layout="wide")
 
