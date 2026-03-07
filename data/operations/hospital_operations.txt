@@ -1,0 +1,149 @@
+HOSPITAL OPERATIONS & POLICY DOCUMENT
+Source: MediRAG Internal Operations Knowledge Base
+Audience: Staff / Admin
+Sensitivity: Medium
+
+---
+
+MEDICATION ERROR REPORTING PROTOCOL
+
+Policy Reference: MED-OPS-004
+Effective Date: January 2024
+Review Date: January 2025
+Applies To: All clinical and non-clinical staff
+
+Definition:
+A medication error is any preventable event that may cause or lead to inappropriate medication use or patient harm. This includes prescribing errors, dispensing errors, administration errors, monitoring failures, and near-misses.
+
+Immediate Steps (First Responder):
+1. Ensure patient safety — assess the patient immediately; call for clinical support if required
+2. Do not leave the patient unattended if harm may have occurred
+3. Notify the senior nurse or doctor on duty within 15 minutes of discovery
+4. Document the incident in the patient's medical record factually and without speculation
+5. Do not alter, delete, or add retrospective entries to the patient record
+
+Reporting Procedure:
+1. Complete an incident report in the hospital's risk management system (Datix) within 24 hours
+2. Include: date/time, medication name, intended vs. actual dose, route, patient identifiers, witnesses
+3. Submit to your line manager and the ward pharmacist on the same day
+4. For serious incidents (patient hospitalisation, significant harm, or death): escalate immediately to the Clinical Governance Team and the Duty Manager
+
+Escalation Contacts:
+- Duty Manager (24/7): Ext. 4400
+- Clinical Governance Team: Ext. 3210 (Mon–Fri, 09:00–17:00)
+- Out-of-hours Clinical Governance: Bleep 774
+- Hospital Pharmacist (on-call): Ext. 2100
+
+Confidentiality:
+Incident reports are used for quality improvement and are protected under clinical governance frameworks. Staff should report in good faith without fear of blame. Deliberate concealment of medication errors is a disciplinary matter.
+
+---
+
+PATIENT DISCHARGE CHECKLIST — STANDARD PROCEDURE
+
+Policy Reference: DISC-OPS-007
+Applies To: Ward nurses, junior doctors, discharge coordinators
+
+Pre-Discharge Steps:
+1. Confirm discharge decision with the responsible consultant or registrar
+2. Complete the TTO (To Take Out) medication list — checked by ward pharmacist
+3. Ensure patient has received discharge medication counselling (pharmacist or nurse)
+4. Print and issue discharge summary to patient — one copy to GP electronically via system
+5. Book any required follow-up outpatient appointments before patient leaves
+6. Arrange transport if required (social work referral if needed — Ext. 5500)
+7. Complete nursing discharge note in the EPR system
+8. Remove IV cannulas, catheters, or monitoring devices as appropriate
+9. Patient to sign discharge consent form (Form DIS-01)
+10. Confirm patient has a safe place to go and a responsible adult if needed
+
+Documentation Requirements:
+- Discharge summary must be completed within 24 hours of discharge (mandatory KPI)
+- Late discharge summaries must be flagged to the ward manager
+- Any outstanding investigations must be listed with clear follow-up plan
+
+If Patient Refuses Discharge:
+- Document refusal in EPR with date, time, and reason given by patient
+- Escalate to the responsible consultant within 2 hours
+- If safeguarding concern: contact Social Work Team immediately (Ext. 5500)
+
+---
+
+ON-CALL ESCALATION PATHWAY — NIGHTS AND WEEKENDS
+
+Policy Reference: ONCALL-OPS-002
+Applies To: All on-call staff, ward nurses, reception
+
+General Principle:
+All clinical concerns outside normal hours should follow the escalation ladder below. Do not skip levels unless the situation is immediately life-threatening (proceed directly to Step 4).
+
+Step 1 — Ward Level:
+Contact the on-call junior doctor (SHO/FY1) for the ward. Bleep numbers are posted at each nurses' station and updated weekly.
+
+Step 2 — Registrar:
+If the SHO is unavailable or the concern is beyond their competency, escalate to the on-call registrar for the relevant specialty. Bleep board at main reception.
+
+Step 3 — Consultant On-Call:
+Contact via switchboard (Ext. 0) for specialty consultant on-call. Required for: ICU admissions, major haemorrhage protocol activation, unexpected deaths, critical test results.
+
+Step 4 — Emergency Response:
+- Cardiac Arrest / Medical Emergency: Dial 2222 (internal) — state location and nature of emergency
+- Fire: Dial 2222 — state "fire" and location
+- Security Threat: Dial 2222 — state "security" and location
+
+SBAR Communication Tool:
+When escalating any clinical concern, use SBAR format:
+- S (Situation): What is happening right now?
+- B (Background): Relevant medical history and reason for admission
+- A (Assessment): What do you think the problem is?
+- R (Recommendation): What do you need from the person you are calling?
+
+---
+
+SHIFT HANDOVER PROTOCOL
+
+Policy Reference: HANDOVER-OPS-001
+Applies To: All nursing and medical staff
+
+Handover must occur at every shift change and must not be rushed. Inadequate handover is a leading cause of preventable patient harm.
+
+Nursing Handover (Bedside):
+- Conduct at the bedside for every patient — patient can be included where appropriate
+- Use the hospital's standardised handover form (SBAR-based, available on EPR)
+- Cover: patient name, diagnosis, overnight events, observations trend, outstanding jobs, family concerns, discharge plan
+- Flag: deteriorating patients, patients for review, those with escalating NEWS2 scores
+
+Medical Handover (Structured):
+- Evening handover: 17:00 — outgoing team presents sick and at-risk patients to on-call team
+- Morning handover: 08:00 — on-call team presents overnight events to day team
+- Location: Medical Education Room, Level 2 (or virtual via Teams if applicable)
+- Attendance mandatory for all doctors finishing or starting a shift
+
+Sick Patient Flagging:
+Any patient with NEWS2 ≥5 must be handed over verbally and documented as a priority. The on-call doctor must acknowledge receipt of this information.
+
+---
+
+CONSENT PROCEDURE — ADULTS WITH CAPACITY
+
+Policy Reference: CONSENT-OPS-003
+Legal Basis: Mental Capacity Act 2005
+
+Principles:
+- Every adult patient is assumed to have capacity unless assessed otherwise
+- Consent must be voluntary, informed, and given by a person with capacity
+- Implied consent is acceptable for routine non-invasive procedures (e.g., taking a pulse)
+- Written consent is required for surgical procedures, sedation, general anaesthesia, and participation in research
+
+Process for Written Consent:
+1. The clinician performing the procedure must obtain consent (cannot be delegated to someone unable to perform the procedure)
+2. Provide written patient information leaflet relevant to the procedure at least 24 hours in advance where possible
+3. Discuss benefits, risks (including common and serious), alternatives, and consequences of declining
+4. Allow the patient time to ask questions
+5. Complete Consent Form 1 (adults with capacity) — available on EPR and at ward admin desks
+6. File signed consent form in the patient's medical record before procedure begins
+
+If Patient Lacks Capacity:
+- Conduct formal Mental Capacity Assessment (MCA) and document
+- Apply best interests principle — consult family/carers and MDT
+- Use Consent Form 4 (treatment in best interests)
+- Contact Legal Services if there is dispute: Ext. 6600

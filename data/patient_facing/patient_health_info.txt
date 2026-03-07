@@ -1,0 +1,139 @@
+PATIENT HEALTH INFORMATION
+Source: MediRAG Patient Knowledge Base
+Audience: Patient
+Sensitivity: Low
+
+---
+
+IBUPROFEN — WHAT YOU NEED TO KNOW
+
+What is ibuprofen?
+Ibuprofen is a common painkiller and fever reducer that you can buy at most pharmacies without a prescription. It belongs to a group of medicines called anti-inflammatories, which means it also helps reduce swelling and inflammation. Common brand names include Advil, Nurofen, and Brufen.
+
+What is it used for?
+Ibuprofen can help with:
+- Headaches and migraines
+- Toothaches
+- Period pain
+- Back pain and muscle aches
+- Cold and flu symptoms (fever and body aches)
+- Minor injuries like sprains
+
+How do I take it?
+For adults and children over 12 years old, the usual dose is 1–2 tablets (200–400mg) up to 3 times a day. Always take ibuprofen with food or milk to protect your stomach. Do not take more than 3 doses in 24 hours unless your doctor tells you to.
+
+Important — when NOT to take ibuprofen:
+- If you have a stomach ulcer or have had one before
+- If you are in the last 3 months of pregnancy
+- If you are allergic to aspirin or other anti-inflammatory painkillers
+- If you have kidney or liver problems (check with your doctor first)
+- If you have heart disease or high blood pressure (check with your doctor first)
+
+Can children take it?
+Yes, but only ibuprofen products made for children — never give adult ibuprofen tablets to a child. Children's ibuprofen comes as a liquid and is dosed by weight. Always follow the instructions on the packaging.
+
+Side effects to watch out for:
+Most people take ibuprofen without any problems. However, contact your doctor if you notice:
+- Stomach pain, heartburn, or nausea
+- Black or tarry stools (this could mean stomach bleeding — seek help immediately)
+- Swollen ankles or feet
+- Skin rash or itching
+- Difficulty breathing
+
+Please consult your doctor or pharmacist before taking ibuprofen if you are on any other medicines.
+
+---
+
+HIGH BLOOD PRESSURE — A PATIENT GUIDE
+
+What is high blood pressure?
+Blood pressure is the force of blood pushing against the walls of your blood vessels. When this force is too high for too long, it can damage your heart, kidneys, and brain. High blood pressure (also called hypertension) is sometimes called the "silent killer" because it often has no symptoms.
+
+What do the numbers mean?
+Your blood pressure reading has two numbers, for example 120/80:
+- The top number (systolic) — pressure when your heart beats
+- The bottom number (diastolic) — pressure when your heart rests between beats
+
+Normal: below 120/80
+Elevated: 120–129 / below 80
+High (Stage 1): 130–139 / 80–89
+High (Stage 2): 140 or higher / 90 or higher
+
+What causes it?
+High blood pressure can be caused by a combination of factors including: eating too much salt, being overweight, not exercising enough, smoking, drinking too much alcohol, stress, and family history.
+
+How can I lower my blood pressure without medication?
+- Reduce salt — aim for less than 6g (one teaspoon) per day
+- Eat more fruits, vegetables, and low-fat foods (DASH diet)
+- Exercise regularly — at least 30 minutes of moderate activity most days
+- Lose weight if you are overweight
+- Stop smoking
+- Limit alcohol to no more than 14 units per week
+- Manage stress — try deep breathing, yoga, or meditation
+
+What if I need medication?
+If lifestyle changes aren't enough, your doctor may prescribe blood pressure medication. Common types include ACE inhibitors, calcium channel blockers, and diuretics (water tablets). It's important to take these every day, even if you feel fine.
+
+Please do not stop taking your blood pressure medication without speaking to your doctor first, even if your readings look normal.
+
+---
+
+DIABETES — UNDERSTANDING YOUR CONDITION
+
+What is diabetes?
+Diabetes is a condition where the level of sugar (glucose) in your blood is too high. This happens because your body either doesn't make enough insulin (a hormone that controls blood sugar) or doesn't use insulin properly.
+
+Type 1 vs Type 2:
+- Type 1 diabetes: The body produces no insulin at all. Usually diagnosed in childhood or young adulthood. Requires insulin injections.
+- Type 2 diabetes: The body doesn't use insulin effectively. More common, usually develops in adults, and is strongly linked to lifestyle factors.
+
+Symptoms to watch for:
+- Feeling very thirsty
+- Needing to urinate more often than usual, especially at night
+- Feeling very tired
+- Blurred vision
+- Cuts or wounds that heal slowly
+- Unexplained weight loss
+
+How is Type 2 diabetes managed?
+- Healthy eating: Reduce sugary foods and drinks, eat more vegetables, wholegrains, and lean protein
+- Physical activity: Aim for 150 minutes of moderate exercise per week
+- Medication: Your doctor may prescribe tablets (metformin is most common) or insulin injections
+- Monitoring: You may be asked to check your blood sugar at home with a glucometer
+- Regular check-ups: Your doctor will check your HbA1c (a measure of average blood sugar over 3 months) at every visit
+
+What is a normal blood sugar level?
+- Before meals: 4–7 mmol/L
+- Two hours after meals: under 8.5 mmol/L
+- HbA1c target: usually below 48 mmol/mol (7%) — your doctor will set a personal target for you
+
+Please consult your doctor or healthcare team for advice specific to your condition and treatment plan.
+
+---
+
+FEVER — WHEN TO WORRY AND WHEN TO WAIT
+
+What is a fever?
+A fever is when your body temperature rises above 38°C (100.4°F). It's usually a sign that your body is fighting an infection. Most fevers are caused by viral infections like colds and flu, and they get better on their own within a few days.
+
+How to manage a fever at home:
+- Rest and drink plenty of fluids (water, diluted juice, clear soup)
+- Take paracetamol (Panadol) or ibuprofen to reduce temperature and relieve discomfort
+- Wear light clothing and keep the room cool
+- Do not use cold water or ice baths to cool down a fever — this can cause shivering which raises temperature
+
+When should I see a doctor?
+See a doctor if:
+- Temperature is above 39.5°C (103°F)
+- Fever has lasted more than 3 days in an adult
+- You have a stiff neck, sensitivity to light, or a rash that doesn't fade when pressed
+- You feel confused or very drowsy
+- You have difficulty breathing
+- You have a serious medical condition or a weakened immune system
+
+For babies and children:
+- Under 3 months: Any fever above 38°C — seek medical attention immediately
+- 3–6 months: Fever above 39°C — see a doctor
+- Over 6 months: If fever is persistent, the child seems very unwell, or has other concerning symptoms
+
+Please consult your doctor or a healthcare professional for advice specific to your situation.

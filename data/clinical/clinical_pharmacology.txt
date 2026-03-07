@@ -1,0 +1,220 @@
+CLINICAL REFERENCE DOCUMENT — FOR MEDICAL PROFESSIONALS ONLY
+Source: Internal Clinical Knowledge Base
+Audience: Doctor
+Sensitivity: High
+
+---
+
+IBUPROFEN — CLINICAL PHARMACOLOGY REFERENCE
+
+Drug Class: Nonsteroidal Anti-Inflammatory Drug (NSAID), Propionic acid derivative
+Mechanism of Action: Non-selective inhibition of cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2), reducing synthesis of prostaglandins and thromboxanes. This results in analgesic, antipyretic, and anti-inflammatory effects.
+
+Indications:
+- Mild to moderate pain (acute musculoskeletal, post-operative, dysmenorrhea)
+- Inflammatory conditions: osteoarthritis, rheumatoid arthritis, ankylosing spondylitis
+- Fever management in adults and pediatric patients
+- Migraine with or without aura (adjunct)
+
+Dosing — Adults:
+- Analgesic/Antipyretic: 200–400 mg PO q4–6h PRN; max 1200 mg/day (OTC), 3200 mg/day (Rx)
+- Anti-inflammatory: 400–800 mg PO TID–QID; max 3200 mg/day
+- Dysmenorrhea: 400 mg PO q4h PRN
+
+Dosing — Pediatric:
+- Fever/Pain: 5–10 mg/kg PO q6–8h; max 40 mg/kg/day
+- JIA: 30–40 mg/kg/day divided q6–8h
+
+Contraindications:
+- Known hypersensitivity to ibuprofen or other NSAIDs
+- Aspirin-exacerbated respiratory disease (AERD) / aspirin triad
+- Active peptic ulcer disease or GI bleeding
+- Severe renal impairment (CrCl <30 mL/min)
+- Perioperative pain in CABG surgery
+- Third trimester of pregnancy (premature closure of ductus arteriosus)
+
+Drug Interactions — Clinically Significant:
+- Warfarin: Increased bleeding risk (COX-1 inhibition impairs platelet function + potential GI bleed)
+- ACE Inhibitors / ARBs: Reduced antihypertensive efficacy; risk of acute kidney injury (triple whammy)
+- Lithium: NSAIDs reduce renal lithium clearance; monitor serum lithium levels
+- Methotrexate: NSAIDs reduce renal clearance of MTX; risk of MTX toxicity
+- SSRIs: Additive bleeding risk
+- Corticosteroids: Additive GI toxicity risk
+- Diuretics: Reduced diuretic efficacy; risk of renal impairment
+
+Adverse Effects:
+- GI: Dyspepsia, nausea, peptic ulcer, GI haemorrhage (most common serious ADR)
+- Renal: Acute kidney injury, sodium and water retention, hypertension, interstitial nephritis
+- CV: Increased risk of MI and stroke with prolonged use (dose-dependent); avoid in established CVD
+- Haematological: Reversible platelet inhibition, anaemia
+- Hepatic: Transaminase elevation (rare); hepatotoxicity (very rare)
+- CNS: Headache, dizziness, tinnitus (especially at high doses)
+- Hypersensitivity: Urticaria, bronchospasm, anaphylaxis (especially in AERD patients)
+
+Monitoring Parameters:
+- Renal function (BUN, creatinine) in at-risk patients
+- Blood pressure in hypertensive patients
+- CBC in chronic users
+- Signs of GI bleeding (haemoccult, Hb)
+- Hepatic function in chronic use
+
+Special Populations:
+- Elderly: Use lowest effective dose; increased risk of GI and renal ADRs; consider PPI co-prescription
+- Renal impairment: Avoid if CrCl <30; use with caution if CrCl 30–60
+- Hepatic impairment: Use with caution in mild-moderate; avoid in severe
+- Pregnancy: Avoid in 3rd trimester; use with caution in 1st/2nd trimester
+- Breastfeeding: Compatible with breastfeeding at standard doses (low milk transfer)
+
+ICD-10 Codes for Common Indications:
+- M79.3 — Panniculitis (pain management)
+- M06.9 — Rheumatoid arthritis, unspecified
+- N94.4 — Primary dysmenorrhoea
+- R50.9 — Fever, unspecified
+- M19.90 — Osteoarthritis, unspecified
+
+---
+
+PARACETAMOL (ACETAMINOPHEN) — CLINICAL PHARMACOLOGY REFERENCE
+
+Drug Class: Para-aminophenol derivative; analgesic and antipyretic (not classified as NSAID)
+Mechanism of Action: Exact mechanism incompletely understood. Inhibits prostaglandin synthesis centrally (CNS); possible modulation of endocannabinoid system and serotonergic descending pain pathways. Minimal peripheral anti-inflammatory effect.
+
+Indications:
+- Mild to moderate pain
+- Fever
+- First-line analgesic in osteoarthritis (per NICE/ACR guidelines)
+- Safe analgesic in pregnancy and breastfeeding
+
+Dosing — Adults:
+- 500 mg–1000 mg PO/IV q4–6h; max 4000 mg/day (healthy adults), 2000 mg/day (hepatic risk)
+- IV: 1000 mg over 15 minutes q6h (max 4g/day)
+
+Hepatotoxicity — Critical Points:
+- Hepatotoxicity occurs via accumulation of NAPQI (N-acetyl-p-benzoquinone imine) when glucuronidation and sulfation pathways are saturated
+- Risk factors: Chronic alcohol use, fasting/malnutrition, hepatic disease, CYP2E1 inducers (rifampicin, INH)
+- Overdose treatment: N-acetylcysteine (NAC) — most effective within 8–10 hours of ingestion
+- Rumack-Matthew nomogram guides NAC therapy in overdose
+
+Drug Interactions:
+- Warfarin: Chronic use (>2g/day) may potentiate anticoagulation — INR monitoring advised
+- Alcohol: Increased hepatotoxicity risk
+- Rifampicin/INH: CYP2E1 induction increases NAPQI formation
+
+---
+
+HYPERTENSION — DIAGNOSIS AND MANAGEMENT PROTOCOL
+
+Definition (2023 ESC/ESH Guidelines):
+- Grade 1: SBP 140–159 / DBP 90–99 mmHg
+- Grade 2: SBP 160–179 / DBP 100–109 mmHg
+- Grade 3: SBP ≥180 / DBP ≥110 mmHg
+- Isolated Systolic Hypertension: SBP ≥140, DBP <90
+
+Diagnosis:
+- Confirm with ≥2 readings on ≥2 separate occasions
+- ABPM or HBPM preferred to exclude white-coat hypertension
+- Target organ damage assessment: ECG, urine ACR, eGFR, fundoscopy
+
+First-Line Antihypertensive Agents:
+1. ACE Inhibitors (e.g., Ramipril 2.5–10 mg OD) — preferred in DM, CKD, post-MI, HFrEF
+2. ARBs (e.g., Losartan 25–100 mg OD) — preferred if ACE inhibitor intolerant (cough)
+3. CCBs (e.g., Amlodipine 5–10 mg OD) — preferred in elderly, isolated systolic HTN, Afro-Caribbean patients
+4. Thiazide diuretics (e.g., Indapamide 1.5 mg OD) — preferred in elderly, heart failure
+
+Combination Therapy (AB/CD Rule):
+- Step 2: ACE-I/ARB + CCB or Thiazide
+- Step 3: ACE-I/ARB + CCB + Thiazide
+- Step 4 (Resistant HTN): Add spironolactone 25–50 mg OD or alpha/beta blocker
+
+Hypertensive Emergency:
+- SBP >180 with end-organ damage (AKI, encephalopathy, ALHF, aortic dissection)
+- IV labetalol or sodium nitroprusside; reduce MAP by no more than 25% in first hour
+- Admit to HDU/ICU
+
+---
+
+DIABETES MELLITUS TYPE 2 — MANAGEMENT SUMMARY
+
+Diagnostic Criteria (WHO):
+- Fasting plasma glucose ≥7.0 mmol/L
+- 2-hr plasma glucose ≥11.1 mmol/L (OGTT)
+- HbA1c ≥48 mmol/mol (6.5%)
+- Random plasma glucose ≥11.1 mmol/L + symptoms
+
+Glycaemic Targets:
+- HbA1c: <53 mmol/mol (7.0%) general; <48 mmol/mol (6.5%) if on lifestyle/metformin only
+- Individualise targets in elderly, frail, or hypoglycaemia-prone patients
+
+First-Line: Metformin
+- Start 500 mg OD/BD with food; titrate to 1000 mg BD over 4 weeks
+- Contraindicated: eGFR <30; withhold if eGFR <45 for contrast procedures
+- ADRs: GI (mitigated by slow titration); lactic acidosis (rare)
+
+Second-Line Options:
+- SGLT2 inhibitors (empagliflozin, dapagliflozin): preferred in established CVD, HF, CKD
+- GLP-1 agonists (semaglutide, liraglutide): preferred in obesity, CVD risk reduction
+- DPP-4 inhibitors (sitagliptin): weight-neutral, low hypoglycaemia risk
+- Sulfonylureas (gliclazide): cheap, effective, risk of hypoglycaemia and weight gain
+- Insulin: Basal insulin (glargine/detemir) when oral agents insufficient
+
+Monitoring:
+- HbA1c every 3–6 months until stable, then every 6 months
+- Annual: eGFR, urine ACR, lipids, BP, foot exam, retinal screening, BMI
+
+
+---
+
+ISOTRETINOIN (ACCUTANE) — CLINICAL PHARMACOLOGY REFERENCE
+
+Drug Class: Retinoid (Vitamin A derivative)
+Mechanism of Action: Reduces sebaceous gland size and sebum production; inhibits P. acnes proliferation; normalises keratinocyte differentiation and reduces follicular hyperkeratinisation.
+
+Indications:
+- Severe nodular/cystic acne refractory to conventional therapy including antibiotics
+- Acne with significant scarring risk
+- Acne causing psychological distress
+
+Dosing — Adults and Adolescents (≥12 years):
+- Starting dose: 0.5 mg/kg/day PO in 1–2 divided doses with food
+- Maintenance: 0.5–1.0 mg/kg/day based on response and tolerability
+- Target cumulative dose: 120–150 mg/kg total (to minimise relapse)
+- Duration: typically 16–24 weeks per course
+- Adolescent females (e.g., 15-year-old, ~50 kg): typically start 25 mg/day (0.5 mg/kg); may increase to 50 mg/day
+- Maximum single dose: 1 mg/kg/day; max 80 mg/day in most patients
+
+Contraindications:
+- Pregnancy (Category X — highly teratogenic; causes severe fetal malformations)
+- Breastfeeding
+- Hypersensitivity to isotretinoin or parabens (in capsule formulation)
+- Concurrent tetracycline antibiotics (risk of pseudotumour cerebri)
+- Severe hepatic impairment
+
+Mandatory Precautions — Female Patients of Childbearing Age:
+- iPLEDGE programme (USA) or equivalent pregnancy prevention programme required
+- Must use two effective forms of contraception for 1 month before, during, and 1 month after treatment
+- Pregnancy test required before each monthly prescription
+- Monthly follow-up mandatory
+
+Monitoring:
+- Baseline: LFTs, fasting lipids, FBC, pregnancy test (females)
+- Monthly: pregnancy test (females), LFTs, fasting lipids
+- Discontinue if: ALT/AST >3x ULN, triglycerides >800 mg/dL, signs of pseudotumour cerebri
+
+Adverse Effects:
+- Very common: Cheilitis (near universal), dry skin/mucosae, epistaxis, myalgia
+- Common: Elevated triglycerides and LFTs, photosensitivity, arthralgias
+- Serious: Teratogenicity, pseudotumour cerebri (esp. with tetracyclines), severe depression/suicidal ideation (monitor closely), inflammatory bowel disease (rare)
+- Rare: Stevens-Johnson syndrome, hearing impairment, corneal opacities
+
+Drug Interactions:
+- Tetracyclines: Contraindicated — additive risk of pseudotumour cerebri (raised intracranial pressure)
+- Vitamin A supplements: Additive toxicity risk — avoid concurrent use
+- Methotrexate: Additive hepatotoxicity — avoid
+- Carbamazepine: Reduced isotretinoin levels
+
+Paediatric Considerations:
+- Approved for ≥12 years
+- Dosing based on weight (mg/kg)
+- Growth plate concerns in young adolescents — use lowest effective dose
+- Psychiatric monitoring essential in adolescents; inform parents of mood change risk
+- For a 15-year-old female: standard starting dose 0.5 mg/kg/day; weight-based calculation required; mandatory pregnancy prevention programme
