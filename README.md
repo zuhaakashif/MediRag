@@ -156,7 +156,7 @@ Returns API status and environment check.
 ### `POST /chat`
 ```json
 {
-  "query": "What is the dosage for amoxicillin?",
+  "query": "What is the dosage for naproxen?",
   "role": "doctor"
 }
 ```
