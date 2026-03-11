@@ -7,8 +7,8 @@ Works for ANY drug — does not rely on a hardcoded list.
 
 import requests
 import re
-
 OPENFDA_URL = "https://api.fda.gov/drug/label.json"
+OPENFDA_API_KEY = "https://api.fda.gov/drug/event.json?api_key=7CRk9FC2SKTr9qnqPypRG3gGrMmtu4PBdPN3UwqV"
 
 DRUG_QUERY_KEYWORDS = [
     "drug", "medication", "medicine", "tablet", "capsule", "pill",
@@ -83,7 +83,7 @@ def search_fda(drug_name: str) -> dict | None:
     for strategy in strategies:
         try:
             r = requests.get(
-                OPENFDA_URL,
+                OPENFDA_API_KEY,
                 params={"search": strategy, "limit": 1},
                 timeout=8
             )
