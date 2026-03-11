@@ -67,31 +67,34 @@ def extract_drug_name(query: str) -> str:
     return q.strip()
 
 def search_fda(drug_name: str) -> dict | None:
-    """
-    Try multiple search strategies to find the drug in OpenFDA.
-    Returns the first label found, or None.
-    """
     strategies = [
         f'openfda.generic_name:"{drug_name}"',
         f'openfda.brand_name:"{drug_name}"',
         f'openfda.substance_name:"{drug_name}"',
         f'openfda.generic_name:{drug_name}',
         f'openfda.brand_name:{drug_name}',
-        drug_name,  # broad full-text fallback
     ]
+    # Removed broad fallback — it returns wrong drugs
 
     for strategy in strategies:
         try:
             r = requests.get(
-                OPENFDA_API_KEY,
-                params={"search": strategy, "limit": 1},
+                OPENFDA_URL,
+                params={"search": strategy, "limit": 1, "api_key": OPENFDA_API_KEY},
                 timeout=8
             )
             if r.status_code == 200:
                 results = r.json().get("results", [])
                 if results:
-                    print(f"  ✅ OpenFDA found '{drug_name}' via: {strategy[:60]}")
-                    return results[0]
+                    label = results[0]
+                    # Validate the result actually contains the drug name
+                    brand   = [b.lower() for b in label.get("openfda", {}).get("brand_name", [])]
+                    generic = [g.lower() for g in label.get("openfda", {}).get("generic_name", [])]
+                    substance = [s.lower() for s in label.get("openfda", {}).get("substance_name", [])]
+                    all_names = brand + generic + substance
+                    if any(drug_name.lower() in name or name in drug_name.lower() for name in all_names):
+                        print(f"  ✅ OpenFDA found '{drug_name}' via: {strategy[:60]}")
+                        return label
         except Exception as e:
             print(f"  ⚠️  OpenFDA search error: {e}")
             continue
