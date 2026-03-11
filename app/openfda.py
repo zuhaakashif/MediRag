@@ -1,14 +1,14 @@
 """
 openfda.py
 Fetches real FDA drug label data for any drug query.
-No API key required — completely free and open.
-Works for ANY drug — does not rely on a hardcoded list.
 """
 
 import requests
 import re
-OPENFDA_URL = "https://api.fda.gov/drug/label.json"
-OPENFDA_API_KEY = "https://api.fda.gov/drug/event.json?api_key=7CRk9FC2SKTr9qnqPypRG3gGrMmtu4PBdPN3UwqV"
+import os
+
+OPENFDA_URL     = "https://api.fda.gov/drug/label.json"
+OPENFDA_API_KEY = os.environ.get("OPENFDA_API_KEY", "")
 
 DRUG_QUERY_KEYWORDS = [
     "drug", "medication", "medicine", "tablet", "capsule", "pill",
@@ -24,13 +24,7 @@ def is_drug_query(query: str) -> bool:
     return any(kw in q for kw in DRUG_QUERY_KEYWORDS)
 
 def extract_drug_name(query: str) -> str:
-    """
-    Extract just the drug name from a natural language query.
-    Strategy: remove all known question phrases, what's left is the drug name.
-    """
     q = query.lower().strip()
-
-    # Remove question phrases — order matters, longest first
     phrases = sorted([
         "what is the dosage for", "what are the side effects of",
         "what is the dose of", "what is the dose for",
@@ -49,22 +43,24 @@ def extract_drug_name(query: str) -> str:
     for phrase in phrases:
         q = q.replace(phrase, "")
 
-    # Remove age/demographic qualifiers
     q = re.sub(r"for (a |an )?\d+[\s\-]year[\s\-]old (\w+)?", "", q)
     q = re.sub(r"for (adults?|children|kids?|elderly|pregnant women?|infants?|babies?)", "", q)
     q = re.sub(r"in (adults?|children|kids?|elderly|pregnant women?)", "", q)
-
-    # Remove trailing/leading punctuation and whitespace
     q = re.sub(r"[?.,!;:]", "", q).strip()
 
-    # If multiple words remain, take the last meaningful word or two
-    # (e.g. "the drug panadol" → "panadol")
     words = [w for w in q.split() if w not in ("the", "a", "an", "of", "for", "is", "are", "drug", "medicine", "medication")]
     if words:
-        # Return last 1-2 words (the actual drug name)
         return " ".join(words[-2:]) if len(words) >= 2 else words[-1]
-
     return q.strip()
+
+def is_valid_result(label: dict, drug_name: str) -> bool:
+    """Check the returned label actually matches the drug we searched for."""
+    drug_lower = drug_name.lower()
+    brand     = [b.lower() for b in label.get("openfda", {}).get("brand_name", [])]
+    generic   = [g.lower() for g in label.get("openfda", {}).get("generic_name", [])]
+    substance = [s.lower() for s in label.get("openfda", {}).get("substance_name", [])]
+    all_names = brand + generic + substance
+    return any(drug_lower in name or name in drug_lower for name in all_names)
 
 def search_fda(drug_name: str) -> dict | None:
     strategies = [
@@ -73,28 +69,29 @@ def search_fda(drug_name: str) -> dict | None:
         f'openfda.substance_name:"{drug_name}"',
         f'openfda.generic_name:{drug_name}',
         f'openfda.brand_name:{drug_name}',
+        f'openfda.substance_name:{drug_name}',
+        drug_name,  # broad fallback — validated before accepting
     ]
-    # Removed broad fallback — it returns wrong drugs
+
+    params_base = {"limit": 1}
+    if OPENFDA_API_KEY:
+        params_base["api_key"] = OPENFDA_API_KEY
 
     for strategy in strategies:
         try:
-            r = requests.get(
-                OPENFDA_URL,
-                params={"search": strategy, "limit": 1, "api_key": OPENFDA_API_KEY},
-                timeout=8
-            )
+            params = {**params_base, "search": strategy}
+            r = requests.get(OPENFDA_URL, params=params, timeout=10)
             if r.status_code == 200:
                 results = r.json().get("results", [])
                 if results:
                     label = results[0]
-                    # Validate the result actually contains the drug name
-                    brand   = [b.lower() for b in label.get("openfda", {}).get("brand_name", [])]
-                    generic = [g.lower() for g in label.get("openfda", {}).get("generic_name", [])]
-                    substance = [s.lower() for s in label.get("openfda", {}).get("substance_name", [])]
-                    all_names = brand + generic + substance
-                    if any(drug_name.lower() in name or name in drug_name.lower() for name in all_names):
-                        print(f"  ✅ OpenFDA found '{drug_name}' via: {strategy[:60]}")
-                        return label
+                    # For broad search (last strategy), validate it's the right drug
+                    if strategy == drug_name:
+                        if not is_valid_result(label, drug_name):
+                            print(f"  ⚠️  Broad search returned wrong drug, skipping")
+                            continue
+                    print(f"  ✅ OpenFDA found '{drug_name}' via: {strategy[:60]}")
+                    return label
         except Exception as e:
             print(f"  ⚠️  OpenFDA search error: {e}")
             continue
@@ -142,7 +139,7 @@ def fetch_fda_data(drug_name: str, role: str) -> str | None:
             ("SIDE EFFECTS",      get_field(label, "adverse_reactions", "stop_use")),
             ("ASK DOCTOR BEFORE", get_field(label, "ask_doctor", "ask_doctor_or_pharmacist")),
         ]
-    else:  # staff
+    else:
         sections = [
             ("DRUG NAME",   ", ".join(brand)),
             ("GENERIC",     ", ".join(generic) if generic else None),
@@ -159,15 +156,11 @@ def fetch_fda_data(drug_name: str, role: str) -> str | None:
 
     return "\n".join(lines) if len(lines) > 1 else None
 
-
 def get_fda_context(query: str, role: str) -> str | None:
-    """Main entry point — checks query, extracts drug name, fetches FDA data."""
     if not is_drug_query(query):
         return None
-
     drug_name = extract_drug_name(query)
     if not drug_name or len(drug_name) < 2:
         return None
-
     print(f"  💊 OpenFDA lookup: extracted='{drug_name}' from query='{query[:50]}'")
     return fetch_fda_data(drug_name, role)
